@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <h1>Welcome to Rock Paper Scissors Game</h1>
+    <h2>Let's Play choose your first move</h2>
+    <form action="/play" method="post">
+        <button type="submit" name="choice" value="rock">Rock</button>
+        <button type="submit" name="choice" value="paper">Paper</button>
+        <button type="submit" name="choice" value="scissors">Scissors</button>
+    </form>
+    <h1>Overview of the game </h1>
+    <p>Rock Paper Scissors is a classic hand game that's easy to learn and fun to play! 
+        The game is played between two players, typically using their hands to form one of three shapes: 
+        rock, paper, or scissors.Each shape has a rule about which other shape it defeats:</p>
+    <li><b>Rock</b> crushes <b>Scissors</b></li>
+    <li><b>Scissors</b> cuts <b>Paper</b></li>
+    <li><b>Paper</b> covers <b>Rock</b></li>
+    <img src="/static/OIP.jpeg" alt="Choices" class="choices-image">
+</body>
+</html>
