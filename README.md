@@ -1,4 +1,4 @@
-This project is a simple implementation of the classic Rock Paper Scissors game using Python with Tkinter for the GUI (Graphical User Interface) and Flask for web deployment.
+##This project is a simple implementation of the classic Rock Paper Scissors game using Python with Tkinter for the GUI (Graphical User Interface) and Flask for web deployment.
 Description
 The Rock Paper Scissors game allows players to compete against the computer in a series of rounds. Each player selects one of three options: rock, paper, or scissors, and the winner of each round is determined based on the rules of the game:
 
